@@ -1,0 +1,17 @@
+# Device-specific Obsidian workspace state
+.obsidian/workspace.json
+.obsidian/session.json
+.obsidian/cache
+
+# Keep .obsidian/workspace-mobile.json synced by default so the Android phone
+# and BOOX Page can share a mobile layout. Ignore it locally if device-specific
+# mobile layouts are more useful than a shared one.
+
+# OS junk
+.DS_Store
+Thumbs.db
+.Trash-*
+~*
+
+# Syncthing conflict files (*.sync-conflict-*) are intentionally not ignored.
+# They should remain visible until reviewed and resolved.

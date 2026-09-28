@@ -1,0 +1,15 @@
+# Defensive rules: vault contents do not belong in this repository
+ObsidianVault/
+vault/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor and temporary files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
