@@ -23,7 +23,7 @@ Every device uses the Syncthing Folder ID `obsidian-main`.
 Clone the private setup repository and run the installer:
 
 ```bash
-git clone <PRIVATE_REPO_URL>
+git clone git@github.com:Willhargrave/obsidian-sync.git
 cd obsidian-sync
 VAULT_DIR="$HOME/Documents/Obsidian Vault" ./install-macos.sh
 ```
@@ -50,7 +50,7 @@ Syncthing File Versioning applies to changes received from other devices. It doe
 First verify that company IT and security policies permit a personal vault and Syncthing on the managed computer. Then clone the private setup repository and run:
 
 ```bash
-git clone <PRIVATE_REPO_URL>
+git clone git@github.com:Willhargrave/obsidian-sync.git
 cd obsidian-sync
 ./install-macos.sh
 ```
